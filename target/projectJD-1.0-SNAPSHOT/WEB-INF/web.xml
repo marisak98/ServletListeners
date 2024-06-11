@@ -22,4 +22,21 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/saludo</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ContextDemoServlet</servlet-name>
+        <servlet-class>com.touhousoft.projectjd.servlets.ContextDemoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContextDemoServlet</servlet-name>
+        <url-pattern>/context</url-pattern>
+    </servlet-mapping>
+
+      <!-- Parametros de contexto -->
+    <context-param>
+          <param-name>adminEmail</param-name>
+          <param-value>admin@localhost.com</param-value>
+    </context-param>
 </web-app>

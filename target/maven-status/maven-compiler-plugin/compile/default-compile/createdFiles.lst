@@ -1,4 +1,5 @@
 com/touhousoft/projectjd/listeners/SessionListener.class
+com/touhousoft/projectjd/servlets/ContextDemoServlet.class
 com/touhousoft/projectjd/servlets/HelloServlet.class
 com/touhousoft/projectjd/listeners/ApplicationListener.class
 com/touhousoft/projectjd/listeners/RequestListener.class

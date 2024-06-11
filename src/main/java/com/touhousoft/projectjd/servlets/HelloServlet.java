@@ -7,8 +7,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-
 /**
  * HelloServlet
  */
@@ -21,5 +19,7 @@ public class HelloServlet extends HttpServlet {
       throws ServletException, IOException {
     response.setContentType("text/html");
     response.getWriter().println("<h1>Hola desde Servlet Listeners!!</h1>");
+
   }
+
 }
