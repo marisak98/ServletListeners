@@ -29,6 +29,16 @@
         <servlet-class>com.touhousoft.projectjd.servlets.ContextDemoServlet</servlet-class>
     </servlet>
 
+    <servlet>
+      <servlet-name>PersonasServlet</servlet-name>
+      <servlet-class>com.touhousoft.projectjd.servlets.PersonasServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>PersonasServlet</servlet-name>
+      <url-pattern>/conexion</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>ContextDemoServlet</servlet-name>
         <url-pattern>/context</url-pattern>
@@ -38,5 +48,20 @@
     <context-param>
           <param-name>adminEmail</param-name>
           <param-value>admin@localhost.com</param-value>
+        </context-param>
+
+     <context-param>
+          <param-name>jdbUrl</param-name>
+          <param-value>jdbc:mariadb://127.0.0.1:3306/project5</param-value>
     </context-param>
+
+    <context-param>
+          <param-name>jdbcUsername</param-name>
+          <param-value>root</param-value>
+        </context-param>
+
+      <context-param>
+          <param-name>jdbcPassword</param-name>
+          <param-value>reimu98</param-value>
+        </context-param>
 </web-app>

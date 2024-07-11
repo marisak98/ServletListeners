@@ -1,5 +1,9 @@
-com/touhousoft/projectjd/listeners/SessionListener.class
 com/touhousoft/projectjd/servlets/ContextDemoServlet.class
-com/touhousoft/projectjd/servlets/HelloServlet.class
+com/touhousoft/projectjd/modelo/ConexionDB.class
 com/touhousoft/projectjd/listeners/ApplicationListener.class
+com/touhousoft/projectjd/servlets/PersonasServlet.class
 com/touhousoft/projectjd/listeners/RequestListener.class
+com/touhousoft/projectjd/modelo/DAOpersona.class
+com/touhousoft/projectjd/listeners/SessionListener.class
+com/touhousoft/projectjd/servlets/HelloServlet.class
+com/touhousoft/projectjd/modelo/persona.class

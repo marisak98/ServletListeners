@@ -1,5 +1,9 @@
-/home/marisak/NetBeansProjects/projectJD/src/main/java/com/touhousoft/projectjd/servlets/HelloServlet.java
-/home/marisak/NetBeansProjects/projectJD/src/main/java/com/touhousoft/projectjd/listeners/RequestListener.java
-/home/marisak/NetBeansProjects/projectJD/src/main/java/com/touhousoft/projectjd/listeners/ApplicationListener.java
-/home/marisak/NetBeansProjects/projectJD/src/main/java/com/touhousoft/projectjd/servlets/ContextDemoServlet.java
-/home/marisak/NetBeansProjects/projectJD/src/main/java/com/touhousoft/projectjd/listeners/SessionListener.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/listeners/SessionListener.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/modelo/ConexionDB.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/servlets/ContextDemoServlet.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/listeners/RequestListener.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/servlets/HelloServlet.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/modelo/persona.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/modelo/DAOpersona.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/listeners/ApplicationListener.java
+/home/marisak/Repos/ServletListeners/src/main/java/com/touhousoft/projectjd/servlets/PersonasServlet.java
