@@ -19,7 +19,7 @@ public class DAOpersona {
 
     Statement stm;
 
-    String query = "INSERT INTO persona VALUES (null, '" + personas.getNombre() + "', '" + personas.getApellidos()
+    String query = "INSERT INTO personas VALUES (null, '" + personas.getNombre() + "', '" + personas.getApellidos()
         + "', '" + personas.getCedula() + "', '" + personas.getDireccion() + "', '" + personas.getTelefono() + "', '"
         + personas.getCorreo() + "')";
 

@@ -3,9 +3,9 @@ package com.touhousoft.projectjd.modelo;
 import java.sql.*;
 
 public class ConexionDB {
-  private String jdbcUrl;
-  private String jdbcUsername;
-  private String jdbcPassword;
+  private String jdbcUrl = "jdbc:mariadb://localhost:3306/perosnas";
+  private String jdbcUsername = "marisak";
+  private String jdbcPassword = "marisaxalice";
 
   private Connection jdbcConnection;
 
@@ -18,7 +18,7 @@ public class ConexionDB {
   public void getConnection() throws SQLException {
     if (jdbcConnection == null || jdbcConnection.isClosed()) {
       try {
-        Class.forName("com.mariadb.jdbc.Driver");
+        Class.forName("org.mariadb.jdbc.Driver");
         System.out.println("[+] Conexion exitosa!!");
       } catch (ClassNotFoundException ex) {
         // TODO: handle exception

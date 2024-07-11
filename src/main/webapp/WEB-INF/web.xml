@@ -51,17 +51,17 @@
         </context-param>
 
      <context-param>
-          <param-name>jdbUrl</param-name>
-          <param-value>jdbc:mariadb://127.0.0.1:3306/project5</param-value>
+          <param-name>jdbcUrl</param-name>
+          <param-value>jdbc:mariadb://localhost:3306/perosnas</param-value>
     </context-param>
 
     <context-param>
           <param-name>jdbcUsername</param-name>
-          <param-value>root</param-value>
+          <param-value>marisak</param-value>
         </context-param>
 
       <context-param>
           <param-name>jdbcPassword</param-name>
-          <param-value>reimu98</param-value>
+          <param-value>marisaxalice</param-value>
         </context-param>
 </web-app>

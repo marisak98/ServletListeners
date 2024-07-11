@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="projectJD-1.0-SNAPSHOT.war" runtime-name="projectJD-1.0-SNAPSHOT.war">
-            <content sha1="108c4e738a271806946f4504be6a9a0bf75cbb70"/>
+            <content sha1="d4b9471cd1138700a2c55c5a53c09bc4214bbc25"/>
         </deployment>
     </deployments>
 </server>
